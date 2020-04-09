@@ -15,6 +15,6 @@ where a and b are the two expressions to be evaluated. Your xor function should 
 exactly one of the two expressions evaluate to true, false otherwise.
 */
 
-function xor(a, b) {
-  // TODO: Program Me
+const xor = (a, b) => {
+  return a !== b;
 }
